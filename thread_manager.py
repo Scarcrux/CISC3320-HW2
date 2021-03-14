@@ -4,7 +4,7 @@ from threading import Thread
 from random import randrange
 
 # Create a PID thread instance
-class PidThread (Thread):
+class PidThread(Thread):
     # Assign variables from parameters
     def __init__(self, thread_id, name, sleep):
         Thread.__init__(self)
