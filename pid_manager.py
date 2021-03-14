@@ -1,13 +1,3 @@
-"""
-CISC 3320 Homework 1
-Author: Jonathan Scarpelli
-Role: Developer
-
-Problem Statement:
-
-Create a PID Manager that simulates an operating system's management of process identifiers. First, select a data structure that represents a PID range of 300 to 5000 and indicates whether each PID is available. Then implement an API for 3 functions: allocate the PID data structure, allocate a PID, and release a PID. Finally, create a UI to interact with the API.
-"""
-
 MIN_PID = 300
 MAX_PID = 5000
 
@@ -58,6 +48,7 @@ def release_pid(pid):
     except NameError:
         print("\nError: Please initialize the PID map")
 
+# PID Manager Command Line Interface
 def main():
     while True:
         try:
@@ -85,7 +76,7 @@ def main():
             else:
                 print("\nError: Please enter a valid menu option")
         except ValueError:
-            print("\nError: Please enter a valid menu option or PID value.")
+            print("\nError: Please enter a valid menu option or PID value")
 
 if __name__ == '__main__':
     main()

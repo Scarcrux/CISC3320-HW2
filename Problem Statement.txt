@@ -1,0 +1,9 @@
+CISC 3320 Homework 2
+Author: Jonathan Scarpelli
+Role: Developer
+
+Problem Statement:
+
+Create a multithreaded program that utilizes the PID Manager from the previous assignment. Each thread allocates a PID, sleeps for a random period of time, then releases the PID.
+
+Sleeping for a random period of time simulates PID in an operating system. The typical PID process is assignment to a new process, which executes and terminates, then the associated PID is released.
