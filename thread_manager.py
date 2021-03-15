@@ -29,7 +29,7 @@ def pid_cycle(pid, sleep):
     time.sleep(sleep)
     pid_manager.release_pid(pid)
 
-# Thread Manager Command Line Interface\
+# Thread Manager Command Line Interface
 # Return -1 on PID map allocation error
 def main():
     # Loop until the quit option is selected
