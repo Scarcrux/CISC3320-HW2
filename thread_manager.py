@@ -10,7 +10,7 @@ class PidThread(Thread):
         Thread.__init__(self)
         self.thread_id = thread_id
         self.name = name
-        self.sleep  = sleep
+        self.sleep = sleep
 
     # Start thread, call PID cycle function, and end thread
     def run(self):
